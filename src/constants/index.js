@@ -262,33 +262,23 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 
 export const workExperiences = [
   {
-    id: 1,
-    name: 'Azul Studio',
-    pos: 'Intern Junior Web Developer',
-    duration: '2023 - 2024',
-    title:
-      'After graduating from my web development degree, I was offered an internship as a junior web dev, at the company i worked at as a website tester. This role included being involved in the development side, and debugging. Working with wordpress, nuxt, tailwind and vueJS. We notably worked on  https://www.thebrentfordproject.com/ . One of Londons newest gentrification projects, based in West London. I did alot of work on cross platform testing, cross browser testing, Wordpress, Figma design and debugging.',
-    icon: '/assets/azulstudio.svg',
-    animation: 'victory',
-  },
-  {
     id: 2,
     name: 'Azul Studio',
     pos: 'Website tester & Wordpress Data Manager',
     duration: '2018 - 2021 and part time from 2021-2022',
     title:
-      'I started working here as a website tester, and managed the headless wordpress CMS to upload data and tested all changes. I worked with ASANA, and learned how to manange with larger projects and being assigned tasks left right and centre.But ASANA made it alot easier and clearer.s I worked on websites such as https://www.embassygardens.com . This is a website for a new community that was built around the US embassy, for a company called Ballymore, a very big property developer in London. Its a very sophisticated website that required a huge amount of testing, text and image optimisation and upload via the CMS.Working with FIGMA, i followed the designers storyboards and mock ups, and added the data accordingly. This required learning figma and i worked with the lead designer, learning how to use figma. Another big website was https://www.riverscape.co.uk/ . Another website for Ballymore',
+      'I started working here as a website tester, and managed the headless wordpress CMS to upload data and tested all changes. I worked with ASANA, and learned how to manange with larger projects and being assigned tasks left right and centre.But ASANA made it alot easier and clearer. I worked on websites such as https://www.embassygardens.com . This is a website for a new community that was built around the US embassy, for a company called Ballymore, a very big property developer in London. Its a very sophisticated website that required a huge amount of testing, text and image optimisation and upload via the CMS.Working with FIGMA, i followed the designers storyboards and mock ups, and added the data accordingly. This required learning figma and i worked with the lead designer, learning how to use figma. Another big website was https://www.riverscape.co.uk/ . Another website for Ballymore. After graduating from my web development degree, i took an intership offer at Azulstudio for 12 months as a junior web developer. Shadowing senior web devs, I learned alot about their tech stack and how they built the websites. I started to utlise Nuxt and Vue JS and how to attach them to a headless wordpress cms, so that the data added through the wordpress backend shows on the front end. The tech stack included Nuxtjs, Tailwind CSS, Vue.JS, Figma and Wordpress.  ',
     icon: '/assets/azulstudio.svg',
     animation: 'clapping',
   },
 
   {
-    id: 3,
+    id: 4,
     name: 'City Of Glasgow College',
     pos: 'HND Web Development',
     duration: '2021 - 2023',
     title:
-      'This focused on mainly practical application including building mobile apps and e-commerce websites and gaining a working knowledge of popular frameworks like Node.js, React, Express.js, MongoDB, Git and GitHub, and languages such as PHP, JavaScript as well as HTML and CSS frameworks.',
+      'This focused on mainly practical application including building mobile apps and e-commerce websites and gaining a working knowledge of popular frameworks like Node.js, React, Express.js, MongoDB, Git and GitHub, and languages such as PHP, JavaScript as well as HTML and CSS frameworks. There were also core courses in Project management and website/app/graphic design using adobe photoshop and figma.',
     icon: '/assets/cityglasgow.png',
     animation: 'salute',
   },
