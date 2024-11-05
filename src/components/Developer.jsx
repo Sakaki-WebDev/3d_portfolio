@@ -12,7 +12,7 @@ import { SkeletonUtils } from 'three-stdlib';
 const Developer = ({ animationName = 'idle', ...props }) => {
   const group = useRef();
 
-  const { scene } = useGLTF('/models/animations/developer.glb');
+  const { scene } = useGLTF('/models/animations/6729714a4bd1d1583bec3e2d.glb');
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene]);
   const { nodes, materials } = useGraph(clone);
 
@@ -32,7 +32,7 @@ const Developer = ({ animationName = 'idle', ...props }) => {
   );
 
   useEffect(() => {
-    actions[animationName].reset().fadeIn(0.5).play();
+    actions[animationName].reset().fadeIn(0.8).play();
     return () => actions[animationName].fadeOut(0.5);
   }, [animationName]);
 
@@ -44,11 +44,11 @@ const Developer = ({ animationName = 'idle', ...props }) => {
         material={materials.Wolf3D_Hair}
         skeleton={nodes.Wolf3D_Hair.skeleton}
       />
-      <skinnedMesh
+      {/*<skinnedMesh
         geometry={nodes.Wolf3D_Glasses.geometry}
         material={materials.Wolf3D_Glasses}
         skeleton={nodes.Wolf3D_Glasses.skeleton}
-      />
+      />  */}
       <skinnedMesh
         geometry={nodes.Wolf3D_Body.geometry}
         material={materials.Wolf3D_Body}
@@ -105,6 +105,6 @@ const Developer = ({ animationName = 'idle', ...props }) => {
   );
 };
 
-useGLTF.preload('/models/animations/developer.glb');
+useGLTF.preload('/models/animations/6729714a4bd1d1583bec3e2d.glb');
 
 export default Developer;

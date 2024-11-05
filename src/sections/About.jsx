@@ -26,7 +26,7 @@ const About = () => {
               <p className="grid-headtext">Hi, I’m Campbell Casteel</p>
               <p className="grid-subtext">
                 I recently graduated from a web development degree, with 3 years experience. I worked for a AzulStudio
-                as a website tester and later nterned as junior web developer whilst studying. I'm looking for a full
+                as a website tester and later interned as junior web developer whilst studying. I'm looking for a full
                 time junior role as a web developer at a company where i can grow and develop my skills and experience.
               </p>
             </div>
@@ -51,15 +51,15 @@ const About = () => {
           <div className="grid-container">
             <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
               <Globe
-                height={326}
-                width={326}
+                height={426}
+                width={426}
                 backgroundColor="rgba(0, 0, 0, 0)"
-                backgroundImageOpacity={0.5}
+                backgroundImageOpacity={0.3}
                 showAtmosphere
                 showGraticules
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-                labelsData={[{ lat: 40, lng: -100, text: 'Rjieka, Croatia', color: 'white', size: 15 }]}
+                labelsData={[{ lat: 40, lng: -100, text: 'London, UK', color: 'white', size: 15 }]}
               />
             </div>
             <div>
@@ -67,7 +67,7 @@ const About = () => {
                 I am flexible with working for companies in different locations and timezones
               </p>
               <p className="grid-subtext">I am based in London, UK, but am open to remote work.</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <Button name="Contact Me" isBeam containerClass="w-full mt-10 hover:bg-gray-900" />
             </div>
           </div>
         </div>

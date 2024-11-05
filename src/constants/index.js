@@ -117,7 +117,7 @@ export const myProjects = [
       {
         id: 1,
         name: 'React.js',
-        path: '/assets/react.svg',
+        path: '/assets/nuxtjs4.png',
       },
       {
         id: 2,
@@ -127,12 +127,12 @@ export const myProjects = [
       {
         id: 3,
         name: 'TypeScript',
-        path: '/assets/typescript.png',
+        path: '/assets/vuejs.png',
       },
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/assets/framer.png',
+        path: '/assets/wordpress2.png',
       },
     ],
   },
@@ -265,19 +265,19 @@ export const workExperiences = [
     id: 1,
     name: 'Azul Studio',
     pos: 'Intern Junior Web Developer',
-    duration: '2021 - Present',
+    duration: '2023 - 2024',
     title:
-      'Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.',
+      'After graduating from my web development degree, I was offered an internship as a junior web dev, at the company i worked at as a website tester. This role included being involved in the development side, and debugging. Working with wordpress, nuxt, tailwind and vueJS. We notably worked on  https://www.thebrentfordproject.com/ . One of Londons newest gentrification projects, based in West London. I did alot of work on cross platform testing, cross browser testing, Wordpress, Figma design and debugging.',
     icon: '/assets/azulstudio.svg',
     animation: 'victory',
   },
   {
     id: 2,
     name: 'Azul Studio',
-    pos: 'Website and Software Tester',
-    duration: '2018 - 2021',
+    pos: 'Website tester & Wordpress Data Manager',
+    duration: '2018 - 2021 and part time from 2021-2022',
     title:
-      'Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.',
+      'I started working here as a website tester, and managed the headless wordpress CMS to upload data and tested all changes. I worked with ASANA, and learned how to manange with larger projects and being assigned tasks left right and centre.But ASANA made it alot easier and clearer.s I worked on websites such as https://www.embassygardens.com . This is a website for a new community that was built around the US embassy, for a company called Ballymore, a very big property developer in London. Its a very sophisticated website that required a huge amount of testing, text and image optimisation and upload via the CMS.Working with FIGMA, i followed the designers storyboards and mock ups, and added the data accordingly. This required learning figma and i worked with the lead designer, learning how to use figma. Another big website was https://www.riverscape.co.uk/ . Another website for Ballymore',
     icon: '/assets/azulstudio.svg',
     animation: 'clapping',
   },

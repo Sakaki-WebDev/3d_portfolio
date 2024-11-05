@@ -70,9 +70,8 @@ const Contact = () => {
 
       <div className="relative min-h-screen flex items-center justify-center flex-col">
         <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
-
         <div className="contact-container">
-          <h3 className="head-text">Reach out</h3>
+          <h3 className="head-text ">Reach out</h3>
           <p className="text-lg text-white-600 mt-3">
             Get in touch today to discuss your web development needs and experience the premium services you deserve at
             a price that will leave you astonished. Let me bring your web dreams to life while keeping your budget
