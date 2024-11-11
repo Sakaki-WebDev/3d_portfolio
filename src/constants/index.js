@@ -101,11 +101,10 @@ export const myProjects = [
   },
   {
     title: 'Embassy Gardens',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-    subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    texture: '/textures/project/project6.mp4',
+    desc: 'Embassy Gardens is a property development built around the new US Embassy in Nine Elms, it is part of a massive regeneration project in SW London, built by EcoWorld and Ballymore.This website was built for these two clients with NuxtJS, VueJS and has a wordpress headless CMS backend. I collaborated on this project whilst working at Azul Studio. The website has a particularly complicated but beautiful UI, the home page is populated with a collage of images that are links, it has an infinite scroll that cycles through the images in a diagonal direction. It can also be manipulated with drag and drop, giving a very eye catching and interactive User Interface.',
+    subdesc: '',
+    href: 'https://www.embassygardens.com/',
+    texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo6.png',
     logoStyle: {
       backgroundColor: '#FAE317',
@@ -116,7 +115,7 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
+        name: 'Nuxt JS',
         path: '/assets/nuxtjs4.png',
       },
       {
@@ -126,23 +125,23 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'TypeScript',
+        name: 'Vue JS',
         path: '/assets/vuejs.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
+        name: 'Wordpress',
         path: '/assets/wordpress2.png',
       },
     ],
   },
   {
     title: 'The Brentford Project',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    desc: '',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/textures/project/project3.mp4',
+      'The Brentford Project was a website for a new project in Brentford, West London. The idea was to regenerate an old area behind the Brentford High Street thats situated on the waterfront.  Also built by Ballymore. This website was developed with NuxtJS, VueJS and has a wordpress headless CMS backend. I collaborated on this project whilst working at Azul Studio.',
+    href: 'https://www.thebrentfordproject.com/',
+    texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo7.png',
     logoStyle: {
       backgroundColor: '#c7c7c7',
@@ -153,8 +152,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Nuxt JS',
+        path: '/assets/nuxtjs4.png',
       },
       {
         id: 2,
@@ -163,26 +162,26 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Vue JS',
+        path: '/assets/vuejs.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Wordpress',
+        path: '/assets/wordpress2.png',
       },
     ],
   },
   {
-    title: 'NEW WEBSITE',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'Echo Chamber',
+    desc: 'Echo Chamber is a social media app designed to allow users to share posts, like, follow and enjoy content created by other users. It is similar to instagram, which is where i drew inspiration from for this app.',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
+      ' It is a fullstack social media app, that i built with;  React JS, Appwrite, Tailwind CSS, React Query and Typescript. It has authenticated sign up and sign in, Infinite scroll on the Home feed page and has a modern UI with mobile native app feel.',
+    href: 'https://echochambers.vercel.app/',
+    texture: '/textures/project/project3.mp4',
+    logo: '/assets/project-logo8.png',
     logoStyle: {
-      backgroundColor: '#0E1F38',
+      backgroundColor: '#0E1F40',
       border: '0.2px solid #0E2D58',
       boxShadow: '0px 0px 60px 0px #2F67B64D',
     },
@@ -205,21 +204,20 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Appwrite',
+        path: '/assets/appwrite.jpeg',
       },
     ],
   },
   {
-    title: 'NEW WEBSITE',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
+    title: 'Intervu',
+    desc: 'Intervu is an AI powered Interviewing software as a service website. It allows the user to create mock interview situations to practice before a real life job interview. It uses Gemini AI to create questions based on the job role, description and experience required, then gives you feedback for your answers and a suggested ideal answer to the original question',
+    subdesc: 'This was built with NextJS 14, Tailwind CSS, Drizzle ORM, Gemeni AI and Clerk',
+    href: 'https://inter-vu.vercel.app/',
+    texture: '/textures/project/project4.mp4',
+    logo: '/assets/project-logo9.svg',
     logoStyle: {
-      backgroundColor: '#1C1A43',
+      backgroundColor: '#FFF',
       border: '0.2px solid #252262',
       boxShadow: '0px 0px 60px 0px #635BFF4D',
     },
@@ -227,8 +225,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: '<NextJS>',
+        path: '/assets/nextJs.png',
       },
       {
         id: 2,
@@ -242,8 +240,13 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Clerk',
+        path: '/assets/clerk.jpeg',
+      },
+      {
+        id: 5,
+        name: 'Drizzle.js',
+        path: '/assets/drizzle.png',
       },
     ],
   },
