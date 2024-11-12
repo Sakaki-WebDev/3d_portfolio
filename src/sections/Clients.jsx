@@ -1,37 +1,35 @@
-import { clientReviews } from '../constants/index.js';
+import { useState } from 'react';
 
-const Clients = () => {
+const Client = () => {
+  const [hasCopied, setHasCopied] = useState(false);
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText(' campbellcasteel@gmail.com');
+    setHasCopied(true);
+
+    setTimeout(() => {
+      setHasCopied(false);
+    }, 2000);
+  };
   return (
     <section className="c-space my-20">
-      <h3 className="head-text">Hear from My Clients</h3>
+      <h3 className="head-text">Reach Out</h3>
+      <div className="relative min-h-screen flex items-center justify-center flex-col">
+        <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0  z-0 " />
+        <div className="space-y-2 z-10">
+          <h2 className="text-2xl text-white text-center">Feel Free To Contact Me</h2>
+          <p className="grid-subtext text-2xl text-center mt-10"></p>
 
-      <div className="client-container">
-        {clientReviews.map((item) => (
-          <div key={`review-${item.id}`} className="client-review">
-            <div>
-              <p className="text-white-800 font-light">{item.review}</p>
-
-              <div className="client-content">
-                <div className="flex gap-3">
-                  <img src={item.img} alt="reviewer" className="w-12 h-12 rounded-full" />
-                  <div className="flex flex-col">
-                    <p className="font-semibold text-white-800">{item.name}</p>
-                    <p className="text-white-500 md:text-base text-sm font-light">{item.position}</p>
-                  </div>
-                </div>
-
-                <div className="flex self-end items-center gap-2">
-                  {Array.from({ length: 5 }).map((_, index) => (
-                    <img key={index} src="/assets/star.png" alt="star" className="w-5 h-5" />
-                  ))}
-                </div>
-              </div>
-            </div>
+          <div className="copy-container mt-10" onClick={handleCopy}>
+            <img className="mt-10" src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
+            <p className=" mt-10 lg:text-2xl md:text-xl font-medium text-gray_gradient text-white hover:text-purple-800">
+              Click to copy my email
+            </p>
           </div>
-        ))}
+        </div>
       </div>
     </section>
   );
 };
 
-export default Clients;
+export default Client;

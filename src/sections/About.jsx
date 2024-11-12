@@ -7,7 +7,7 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(' adrian@jsmastery.pro');
+    navigator.clipboard.writeText(' campbellcasteel@gmail.com');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -102,8 +102,9 @@ const About = () => {
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
                 <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">
-                  emailPlaceholder@gmail.com
+                  Click to copy my email
                 </p>
+                x
               </div>
             </div>
           </div>
