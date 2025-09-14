@@ -28,7 +28,7 @@ export const clientReviews = [
     position: 'Marketing Director at GreenLeaf',
     img: 'assets/review1.png',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'Working with Campbell was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
   },
   {
     id: 2,
@@ -44,7 +44,7 @@ export const clientReviews = [
     position: 'Project Manager at UrbanTech ',
     img: 'assets/review3.png',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'I can’t say enough good things about Campbell. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
   },
   {
     id: 4,
@@ -52,53 +52,11 @@ export const clientReviews = [
     position: 'CEO of BrightStar Enterprises',
     img: 'assets/review4.png',
     review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'Campbell was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
   },
 ];
 
 export const myProjects = [
-  {
-    title: 'Authentic Alba - Bespoke Tourism Booking App',
-    desc: 'Authentic Alba is a full stack booking website a bit like airbnb, but for smaller travel companies to post their holidays on. Users can create an account and search and book holidays, as well as advertise their own if they are a travel company.',
-    subdesc:
-      'I built this as my final project for my diploma, which enabled me to get a distinction grade. It is built with a tech stack of React with NextJS Framework and Tailwind CSS,  on the front end and a back end of Prisma and MongoDB.',
-    href: 'https://authentic-alba-ccasteel.vercel.app/',
-    texture: '/textures/project/project6.mp4',
-    logo: '/assets/project-logo1.png',
-    logoStyle: {
-      backgroundColor: '#F3F3f3',
-      border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
-    },
-    spotlight: '/assets/spotlight1.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: '<NextJS>',
-        path: '/assets/nextJs.png',
-      },
-      {
-        id: 4,
-        name: 'Prisma',
-        path: '/assets/download.jpeg',
-      },
-      {
-        id: 5,
-        name: 'MONGODB',
-        path: '/assets/mongodb.png',
-      },
-    ],
-  },
   {
     title: 'Embassy Gardens',
     desc: 'Embassy Gardens is a property development built around the new US Embassy in Nine Elms, it is part of a massive regeneration project in SW London, built by EcoWorld and Ballymore.This website was built for these two clients with NuxtJS, VueJS and has a wordpress headless CMS backend. I collaborated on this project whilst working at Azul Studio. The website has a particularly complicated but beautiful UI, the home page is populated with a collage of images that are links, it has an infinite scroll that cycles through the images in a diagonal direction. It can also be manipulated with drag and drop, giving a very eye catching and interactive User Interface.',
@@ -173,11 +131,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Echo Chamber',
-    desc: 'Echo Chamber is a social media app designed to allow users to share posts, like, follow and enjoy content created by other users. It is similar to instagram, which is where i drew inspiration from for this app.',
+    title: 'Budget Pal',
+    desc: 'Budget Pal is a personal finance tracker designed to help users log and monitor their spending habits. Inspired by the need for a simple and intuitive budgeting tool, it allows users to add, categorize, and view expenses over time — making it easier to stay on top of financial goals. I built this app to explore practical applications of fullstack development while solving a real-world problem in everyday money management.',
     subdesc:
-      ' It is a fullstack social media app, that i built with;  React JS, Appwrite, Tailwind CSS, React Query and Typescript. It has authenticated sign up and sign in, Infinite scroll on the Home feed page and has a modern UI with mobile native app feel.',
-    href: 'https://echochambers.vercel.app/',
+      ' It is a fullstack expense tracking app that I built with: React JS, Appwrite, Tailwind CSS, React Query, and TypeScript. It features authenticated sign up and sign in, dynamic expense entry and categorization, real-time data syncing, and a clean, responsive UI designed for both desktop and mobile use.',
+    href: 'https://budgettingpal.vercel.app/',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo8.png',
     logoStyle: {
